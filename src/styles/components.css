@@ -1,0 +1,170 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: white;
+  border-bottom: 1px solid var(--light-gray);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.nav {
+  display: flex;
+  gap: 28px;
+}
+
+.nav a {
+  font-size: 14px;
+  color: var(--charcoal);
+  transition: color 0.2s ease;
+}
+
+.nav a:hover {
+  color: var(--navy);
+}
+
+.cta-button {
+  background: var(--navy);
+  color: white;
+  padding: 10px 18px;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.cta-button:hover {
+  background: var(--soft-gold);
+  color: var(--navy);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 100px;
+  background: white;
+  border-bottom: 1px solid var(--light-gray);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.brand-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.primary-brand {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--navy);
+  letter-spacing: 0.5px;
+}
+
+.sub-brand {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary-blue);
+  margin-top: 2px;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
+.nav a {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--charcoal);
+  transition: color 0.2s ease;
+}
+
+.nav a:hover {
+  color: var(--navy);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.usabg-affiliation {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--charcoal);
+  opacity: 0.7;
+}
+
+.cta-button {
+  background: var(--primary-blue);
+  color: white;
+  padding: 14px 24px;
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.cta-button:hover {
+  background: var(--navy);
+}
+.usabg-logo {
+  height: 48px;
+  width: auto;
+  max-width: 240px;
+  object-fit: contain;
+}
+.brand-block a {
+  color: inherit;
+}
+
+.brand-block a:hover {
+  opacity: 0.85;
+}
+.phone-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e3a8a;
+  text-decoration: none;
+}
+
+.phone-link:hover {
+  opacity: 0.8;
+}
+.phone-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.availability-note {
+  font-size: 12px;
+  color: #6b7280;
+}
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.powered-by {
+  font-size: 13px;
+  opacity: 0.8;
+}
