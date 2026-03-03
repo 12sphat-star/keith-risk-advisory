@@ -1,86 +1,96 @@
 import { Link } from "react-router-dom"
+import "../styles/components.css"
 
 const LifeInsurance = () => {
   return (
-    <div style={{ padding: "120px 120px 80px 120px", maxWidth: "1200px", margin: "0 auto" }}>
+    <div className="life-page">
 
-      <h1 style={{ fontSize: "42px", marginBottom: "24px" }}>
-        Life Insurance for Income Protection & Business Continuity
-      </h1>
+      {/* HERO */}
+      <section className="life-hero">
+        <div className="life-hero-text">
+          <h1>
+            Life Insurance Structured for Income Protection & Business Stability
+          </h1>
 
-      <p style={{ fontSize: "20px", lineHeight: "1.7", marginBottom: "40px", maxWidth: "820px" }}>
-        Life insurance is not just about final expenses.
-        For entrepreneurs and business owners in Virginia,
-        it can serve as income protection, succession planning support,
-        and a stabilizing financial tool for families.
-      </p>
+          <p>
+            For business owners and self-employed professionals,
+            life insurance is not just personal protection —
+            it safeguards income continuity, family stability,
+            and long-term planning objectives.
+          </p>
 
-      <div style={{ marginBottom: "60px" }}>
-        <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>
-          Who Should Consider Structured Life Coverage
-        </h2>
+          <p className="life-subnote">
+            Serving entrepreneurs and small business owners across Virginia.
+          </p>
+        </div>
 
-        <ul style={{ fontSize: "18px", lineHeight: "1.8" }}>
-          <li>✔ Business Owners with Dependents</li>
-          <li>✔ Self-Employed Professionals</li>
-          <li>✔ Partners in Multi-Owner Businesses</li>
-          <li>✔ Families Relying on a Primary Income Earner</li>
-          <li>✔ Individuals Planning Long-Term Wealth Transfer</li>
+        <div className="life-hero-image">
+          <div className="image-placeholder">
+            Executive Planning Image
+          </div>
+        </div>
+      </section>
+
+      {/* WHO IT’S FOR */}
+      <section className="life-section">
+        <h2>Designed For</h2>
+
+        <ul>
+          <li>Business Owners with Income Dependents</li>
+          <li>Self-Employed Professionals</li>
+          <li>Partnership & Buy-Sell Planning</li>
+          <li>Families Dependent on Business Revenue</li>
         </ul>
-      </div>
+      </section>
 
-      <div style={{ marginBottom: "60px" }}>
-        <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>
-          Coverage Types We Review With You
-        </h2>
+      {/* WHAT WE STRUCTURE */}
+      <section className="life-section light-bg">
+        <h2>What We Structure</h2>
 
-        <ul style={{ fontSize: "18px", lineHeight: "1.8" }}>
-          <li>• Term Life Insurance</li>
-          <li>• Permanent Life Insurance</li>
-          <li>• Policies with Living Benefits</li>
-          <li>• Business Continuity Structures</li>
-          <li>• Buy-Sell Agreement Funding</li>
+        <ul>
+          <li>Term Life for Income Replacement</li>
+          <li>Permanent Coverage for Long-Term Planning</li>
+          <li>Business Continuity Protection</li>
+          <li>Alignment with Estate & Financial Planning Goals</li>
         </ul>
-      </div>
+      </section>
 
-      <div style={{ marginBottom: "60px" }}>
-        <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>
-          Planning with Intent
-        </h2>
+      {/* WHY STRUCTURE MATTERS */}
+      <section className="life-section">
+        <h2>Why Structure Matters</h2>
 
-        <p style={{ fontSize: "18px", lineHeight: "1.7", maxWidth: "820px" }}>
-          The right life insurance structure depends on your income,
-          liabilities, family needs, and long-term goals.
-          We evaluate options based on alignment —
-          ensuring protection is appropriate, sustainable,
-          and integrated into your broader financial strategy.
-        </p>
-      </div>
-
-      <div style={{ padding: "40px", background: "#f3f4f6", borderRadius: "12px" }}>
-        <h3 style={{ fontSize: "24px", marginBottom: "16px" }}>
-          Schedule a Protection Review
-        </h3>
-
-        <p style={{ fontSize: "18px", marginBottom: "24px" }}>
-          We’ll review your current coverage (if any),
-          identify gaps, and determine appropriate next steps.
+        <p>
+          Life insurance should reflect your income level,
+          business exposure, and long-term objectives.
+          The wrong structure can create unnecessary cost
+          or leave critical gaps.
         </p>
 
-        <Link 
-          to="/schedule"
-          style={{
-            padding: "14px 28px",
-            background: "#1e3a8a",
-            color: "white",
-            textDecoration: "none",
-            borderRadius: "6px",
-            fontWeight: "600"
-          }}
-        >
-          Book Consultation
-        </Link>
-      </div>
+        <p>
+          A structured review ensures coverage supports
+          your overall financial position — not just a policy number.
+        </p>
+      </section>
+
+      {/* CTA */}
+      <section className="life-cta">
+        <h3>Schedule a Structured Life Coverage Review</h3>
+
+        <p>
+          A focused conversation to evaluate alignment.
+          No obligation. No pressure.
+        </p>
+
+        <div className="life-cta-buttons">
+          <Link to="/schedule" className="cta-primary">
+            Schedule Review
+          </Link>
+
+          <a href="tel:7572804120" className="cta-secondary">
+            Call 757-280-4120
+          </a>
+        </div>
+      </section>
 
     </div>
   )

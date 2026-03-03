@@ -1,7 +1,7 @@
 :root {
-  --navy: #274C77;          /* softer, lighter blue */
-  --primary-blue: #3A7DFF;  /* energetic but clean */
-  --light-blue: #E8F1FF;    /* soft background tint */
+  --navy: #274C77;
+  --primary-blue: #3A7DFF;
+  --light-blue: #E8F1FF;
   --charcoal: #333333;
   --warm-white: #FCFCFA;
   --soft-gold: #C6A85E;
@@ -17,6 +17,7 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: var(--warm-white);
   color: var(--charcoal);
+  font-size: 16px;   /* reset to standard */
 }
 
 h1, h2, h3 {
@@ -26,11 +27,4 @@ h1, h2, h3 {
 
 a {
   text-decoration: none;
-}
-body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: var(--warm-white);
-  color: var(--charcoal);
-  font-size: 18px;   /* upgraded base */
 }

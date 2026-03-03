@@ -1,54 +1,47 @@
-import { useState } from "react"
-import "../styles/layout.css"
-
 const FAQSection = () => {
-  const [active, setActive] = useState<number | null>(null)
-
-  const toggle = (index: number) => {
-    setActive(active === index ? null : index)
-  }
-
-  const faqs = [
-    {
-  question: "Can health insurance premiums be deducted as a self-employed business owner?",
-  answer:
-  "Deductibility can vary depending on business structure and income. We provide coverage guidance, and we recommend confirming tax treatment with your CPA or tax advisor."
-},
-    {
-      question: "How much life insurance does a business owner need?",
-      answer:
-        "Coverage should reflect income replacement needs, business obligations, and family stability — not arbitrary multiples."
-    },
-    {
-      question: "Is marketplace coverage my only option in Virginia?",
-      answer:
-        "Marketplace plans are one option. Business owners often have additional structured alternatives depending on eligibility and business setup."
-    },
-    {
-      question: "When should I review my insurance coverage?",
-      answer:
-        "Major income changes, business growth, family expansion, or tax structure adjustments are ideal times to reassess coverage."
-    }
-  ]
-
   return (
     <section className="faq-section">
-      <h2>Common Questions from Virginia Business Owners</h2>
+      <div className="container">
 
-      <div className="faq-container">
-        {faqs.map((item, index) => (
-          <div key={index} className="faq-item">
-            <div className="faq-question" onClick={() => toggle(index)}>
-              {item.question}
-            </div>
+        <h2>Common Questions</h2>
 
-            {active === index && (
-              <div className="faq-answer">
-                {item.answer}
-              </div>
-            )}
-          </div>
-        ))}
+        <div className="faq-item">
+          <h3>I already have health or life insurance. Why review it?</h3>
+          <p>
+            A structured review does not mean replacing coverage.
+            It ensures your current plan aligns with your income,
+            business operations, and long-term stability.
+            If your structure is solid, that is confirmed.
+          </p>
+        </div>
+
+        <div className="faq-item">
+          <h3>Is this a sales call?</h3>
+          <p>
+            No. The initial conversation is a review.
+            The goal is to evaluate alignment, not to force change.
+            Adjustments are only discussed if structural gaps are identified.
+          </p>
+        </div>
+
+        <div className="faq-item">
+          <h3>Do I have to switch plans?</h3>
+          <p>
+            Not necessarily. Many reviews result in confirmation that
+            existing coverage is appropriate. The process is about clarity,
+            not unnecessary disruption.
+          </p>
+        </div>
+
+        <div className="faq-item">
+          <h3>Who do you primarily work with?</h3>
+          <p>
+            Self-employed professionals, contractors, and small business owners
+            throughout Virginia — particularly those whose income supports both
+            their business operations and their family stability.
+          </p>
+        </div>
+
       </div>
     </section>
   )

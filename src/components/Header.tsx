@@ -1,52 +1,59 @@
 import { Link } from "react-router-dom"
-import "../styles/components.css"
 import usabgLogo from "../assets/usabg-logo.png"
 
-export default function Header() {
+const Header = () => {
   return (
-    <header className="header">
+    <header className="site-header">
+      <div className="header-container">
 
-     <div className="brand-block">
-  <Link to="/" style={{ textDecoration: "none" }}>
-    <div className="primary-brand">
-      Keith Robertson
-    </div>
-    <div className="sub-brand">
-      Risk Advisory
-    </div>
-  </Link>
-</div>
+        <div className="brand-block">
+          <Link to="/" className="brand-link">
+            <div className="primary-brand">Keith Robertson</div>
+            <div className="sub-brand">Risk Advisory</div>
+          </Link>
+        </div>
 
-      <nav className="nav">
-        <Link to="/health-insurance">Health Insurance</Link>
-        <Link to="/life-insurance">Life Insurance</Link>
-        <Link to="/business-owners">For Business Owners</Link>
-        <Link to="/about">About</Link>
-      </nav>
+        <nav className="nav">
+          <Link to="/health-insurance">Health Insurance</Link>
+          <Link to="/life-insurance">Life Insurance</Link>
+          <Link to="/business-owners">For Business Owners</Link>
+          <Link to="/about">About</Link>
+        </nav>
 
-      <div className="header-right">
+        <div className="header-actions">
 
-  <div className="phone-container">
-  <a href="tel:7572804120" className="phone-link">
-    757-280-4120
-  </a>
-  <div className="availability-note">
-    Calls accepted 24 hours
-  </div>
-</div>
+          <div className="contact-block">
+            <a href="tel:7572804120" className="phone-link">
+              757-280-4120
+            </a>
+            <div className="availability">
+              24/7 Support Access
+            </div>
+          </div>
 
-  <img 
-    src={usabgLogo} 
+         <a
+  href="https://usabg.com/krobertson"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src={usabgLogo}
     alt="USABG National Partner"
     className="usabg-logo"
   />
+</a>
+<a
+          />
 
-  <Link to="/schedule" className="cta-button">
-    Schedule Call
-  </Link>
+          <Link to="/schedule" className="cta-button">
+            Schedule Review
+          </Link>
 
-</div>
+        </div>
 
+      </div>
     </header>
   )
 }
+
+export default Header
