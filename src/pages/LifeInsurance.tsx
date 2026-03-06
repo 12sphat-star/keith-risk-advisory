@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import "../styles/components.css"
+import lifeImage from "../assets/life-continuity.jpg"
 
 const LifeInsurance = () => {
   return (
@@ -9,76 +10,75 @@ const LifeInsurance = () => {
       <section className="life-hero">
         <div className="life-hero-text">
           <h1>
-            Life Insurance Structured for Income Protection & Business Stability
+            Life Insurance Structured for Business Continuity
           </h1>
 
           <p>
-            For business owners and self-employed professionals,
-            life insurance is not just personal protection —
-            it safeguards income continuity, family stability,
-            and long-term planning objectives.
+            For business owners, life insurance is more than just personal protection —
+            it is operational protection. If something happens to you,
+            the business must still function.
           </p>
 
           <p className="life-subnote">
-            Serving entrepreneurs and small business owners across Virginia.
+            Serving Virginia entrepreneurs and small business owners.
           </p>
         </div>
 
         <div className="life-hero-image">
-          <div className="image-placeholder">
-            Executive Planning Image
-          </div>
+  <img src={lifeImage} alt="Business continuity planning discussion" />
+
         </div>
       </section>
 
-      {/* WHO IT’S FOR */}
+      {/* WHY IT MATTERS */}
       <section className="life-section">
-        <h2>Designed For</h2>
+        <h2>Why Business Continuity Planning Matters</h2>
 
         <ul>
-          <li>Business Owners with Income Dependents</li>
-          <li>Self-Employed Professionals</li>
-          <li>Partnership & Buy-Sell Planning</li>
-          <li>Families Dependent on Business Revenue</li>
+          <li>Income disruption impacts operations immediately</li>
+          <li>Employees and partners rely on structural stability</li>
+          <li>Outstanding debt and obligations remain</li>
+          <li>Ownership transitions require funding</li>
+          <li>Family and business interests must stay aligned</li>
         </ul>
       </section>
 
-      {/* WHAT WE STRUCTURE */}
+      {/* STRUCTURED APPROACH */}
       <section className="life-section light-bg">
-        <h2>What We Structure</h2>
-
-        <ul>
-          <li>Term Life for Income Replacement</li>
-          <li>Permanent Coverage for Long-Term Planning</li>
-          <li>Business Continuity Protection</li>
-          <li>Alignment with Estate & Financial Planning Goals</li>
-        </ul>
-      </section>
-
-      {/* WHY STRUCTURE MATTERS */}
-      <section className="life-section">
-        <h2>Why Structure Matters</h2>
+        <h2>Structured Policy Design</h2>
 
         <p>
-          Life insurance should reflect your income level,
-          business exposure, and long-term objectives.
-          The wrong structure can create unnecessary cost
-          or leave critical gaps.
+          Policies are evaluated based on ownership structure,
+          income flow, and long-term objectives —
+          not simply premium comparison.
         </p>
 
         <p>
-          A structured review ensures coverage supports
-          your overall financial position — not just a policy number.
+          In certain cases, properly designed life insurance
+          can provide strategic flexibility and long-term capital access,
+          when aligned appropriately with broader financial planning.
+        </p>
+      </section>
+
+      {/* BLENDED FAMILY PROTECTION */}
+      <section className="life-section">
+        <h2>Family Protection Remains Central</h2>
+
+        <p>
+          While business continuity is critical,
+          protection ultimately extends to the family.
+          Structured life insurance ensures that personal stability
+          remains intact alongside business protection.
         </p>
       </section>
 
       {/* CTA */}
       <section className="life-cta">
-        <h3>Schedule a Structured Life Coverage Review</h3>
+        <h3>Schedule a Continuity & Coverage Review</h3>
 
         <p>
-          A focused conversation to evaluate alignment.
-          No obligation. No pressure.
+          A structured discussion to evaluate protection,
+          exposure, and long-term alignment.
         </p>
 
         <div className="life-cta-buttons">

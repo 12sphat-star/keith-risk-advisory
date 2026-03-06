@@ -5,11 +5,18 @@ const CTASection = () => {
     <section className="cta-section">
       <div className="cta-content">
 
-        <h2>Schedule a Structured Coverage Review</h2>
+        <h2>
+          Make Sure Your Coverage Is Working the Way You Think It Is
+        </h2>
 
         <p>
-          A brief review can confirm your current coverage is aligned properly —
-          or identify areas that may need adjustment. No obligation. No pressure.
+          A focused review designed to confirm alignment, reduce exposure,
+          and ensure your health and life coverage supports your income,
+          business stability, and long-term goals.
+        </p>
+
+        <p className="cta-reassurance">
+          No obligation. No pressure. Just clarity.
         </p>
 
         <div className="cta-actions">

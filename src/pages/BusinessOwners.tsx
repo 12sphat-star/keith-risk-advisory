@@ -1,75 +1,82 @@
 import { Link } from "react-router-dom"
+import businessHero from "../assets/business-strategy.jpg"
+import "../styles/components.css"
 
 const BusinessOwners = () => {
   return (
-    <div style={{ padding: "120px 120px 80px 120px", maxWidth: "1200px", margin: "0 auto" }}>
+    <div className="business-page">
 
-      <h1 style={{ fontSize: "42px", marginBottom: "24px" }}>
-        Insurance Strategy for Virginia Business Owners
-      </h1>
+      {/* HERO */}
+      <div className="business-hero">
 
-      <p style={{ fontSize: "20px", lineHeight: "1.7", marginBottom: "40px", maxWidth: "820px" }}>
-        When you own the business, you are the infrastructure.
-        Your health, your income, and your planning decisions directly impact
-        your employees, your clients, and your family.
-      </p>
+        <div className="business-hero-text">
+          <h1>
+            Structured Insurance Planning for Virginia Business Owners
+          </h1>
 
-      <div style={{ marginBottom: "60px" }}>
-        <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>
-          What Makes Business Coverage Different
-        </h2>
+          <p>
+            When you own the business, you are the infrastructure.
+            Your health, your income, and your protection decisions directly
+            impact employees, clients, and family stability.
+          </p>
 
-        <ul style={{ fontSize: "18px", lineHeight: "1.8" }}>
-          <li>✔ Income is often variable</li>
-          <li>✔ Tax structure impacts coverage decisions</li>
-          <li>✔ Employees may rely on your stability</li>
-          <li>✔ Partnerships require contingency planning</li>
-          <li>✔ Growth changes protection needs</li>
+          <p className="sub-text">
+            Serving small business owners and entrepreneurs across Virginia.
+          </p>
+        </div>
+
+        <div className="business-hero-image">
+          <img
+            src={businessHero}
+            alt="Business strategy presentation"
+          />
+        </div>
+
+      </div>
+
+      {/* WHAT MAKES IT DIFFERENT */}
+      <section className="business-section">
+        <h2>What Makes Business Coverage Different</h2>
+
+        <ul>
+          <li>Variable income structures</li>
+          <li>Tax treatment affecting plan decisions</li>
+          <li>Employees dependent on operational continuity</li>
+          <li>Partnership and buy-sell considerations</li>
+          <li>Growth-driven changes in exposure</li>
         </ul>
-      </div>
+      </section>
 
-      <div style={{ marginBottom: "60px" }}>
-        <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>
-          Structured Protection Approach
-        </h2>
+      {/* STRUCTURED APPROACH */}
+      <section className="business-section">
+        <h2>Structured Protection Approach</h2>
 
-        <p style={{ fontSize: "18px", lineHeight: "1.7", maxWidth: "820px" }}>
-          We evaluate health and life insurance through a structural lens —
-          aligning coverage with ownership structure, income flow,
-          and long-term business stability.
+        <p>
+          Coverage is evaluated through ownership structure,
+          income flow, and long-term business stability —
+          not just premium comparison.
         </p>
 
-        <p style={{ fontSize: "18px", lineHeight: "1.7", maxWidth: "820px", marginTop: "20px" }}>
-          For certain business owners, properly designed policies can also provide
-          long-term capital flexibility — but only when appropriate and aligned
-          with broader financial goals.
+        <p>
+          For certain business owners, properly designed policies
+          can provide long-term capital flexibility —
+          when aligned with broader financial strategy.
         </p>
-      </div>
+      </section>
 
-      <div style={{ padding: "40px", background: "#f3f4f6", borderRadius: "12px" }}>
-        <h3 style={{ fontSize: "24px", marginBottom: "16px" }}>
-          Schedule a Business Coverage Strategy Call
-        </h3>
+      {/* CTA */}
+      <section className="business-cta">
+        <h3>Schedule a Business Coverage Strategy Call</h3>
 
-        <p style={{ fontSize: "18px", marginBottom: "24px" }}>
+        <p>
           This session focuses on identifying risk exposure,
           protection gaps, and structural alignment.
         </p>
 
-        <Link 
-          to="/schedule"
-          style={{
-            padding: "14px 28px",
-            background: "#1e3a8a",
-            color: "white",
-            textDecoration: "none",
-            borderRadius: "6px",
-            fontWeight: "600"
-          }}
-        >
+        <Link to="/schedule" className="cta-primary">
           Book Strategy Call
         </Link>
-      </div>
+      </section>
 
     </div>
   )

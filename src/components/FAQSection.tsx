@@ -1,48 +1,66 @@
+import "../styles/components.css"
+
 const FAQSection = () => {
   return (
     <section className="faq-section">
-      <div className="container">
 
-        <h2>Common Questions</h2>
-
-        <div className="faq-item">
-          <h3>I already have health or life insurance. Why review it?</h3>
-          <p>
-            A structured review does not mean replacing coverage.
-            It ensures your current plan aligns with your income,
-            business operations, and long-term stability.
-            If your structure is solid, that is confirmed.
-          </p>
-        </div>
+      <div className="faq-container">
+        <h2>Frequently Asked Questions</h2>
 
         <div className="faq-item">
           <h3>Is this a sales call?</h3>
           <p>
-            No. The initial conversation is a review.
-            The goal is to evaluate alignment, not to force change.
-            Adjustments are only discussed if structural gaps are identified.
+            No. The review is designed to evaluate your current health or life coverage,
+            assess structural alignment, and determine whether adjustments are necessary.
+            If your coverage is appropriately structured, that will be confirmed.
           </p>
         </div>
 
         <div className="faq-item">
-          <h3>Do I have to switch plans?</h3>
+          <h3>Is there a fee for the coverage review?</h3>
           <p>
-            Not necessarily. Many reviews result in confirmation that
-            existing coverage is appropriate. The process is about clarity,
-            not unnecessary disruption.
+            There is no cost for the initial review session.
+            The purpose is clarity and alignment — not pressure or obligation.
           </p>
         </div>
 
         <div className="faq-item">
-          <h3>Who do you primarily work with?</h3>
+          <h3>Do you only work with business owners?</h3>
           <p>
-            Self-employed professionals, contractors, and small business owners
-            throughout Virginia — particularly those whose income supports both
-            their business operations and their family stability.
+            A primary focus is serving self-employed professionals and small business owners,
+            but individuals and families across Virginia are also supported.
+            Coverage strategy is tailored based on income structure and personal objectives.
+          </p>
+        </div>
+
+        <div className="faq-item">
+          <h3>What if my current coverage is already good?</h3>
+          <p>
+            If your current plan is structured appropriately,
+            the review will simply confirm that.
+            The goal is alignment and clarity — not unnecessary change.
+          </p>
+        </div>
+
+        <div className="faq-item">
+          <h3>What types of coverage are reviewed?</h3>
+          <p>
+            Reviews may include individual health plans,
+            small group coverage, and life insurance strategies —
+            depending on your situation and objectives.
+          </p>
+        </div>
+
+        <div className="faq-item">
+          <h3>Are you licensed in Virginia?</h3>
+          <p>
+            Yes. Services are provided to clients across Virginia,
+            with a focus in Hampton Roads and surrounding communities.
           </p>
         </div>
 
       </div>
+
     </section>
   )
 }

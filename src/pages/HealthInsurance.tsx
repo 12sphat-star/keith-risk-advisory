@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import "../styles/components.css"
+import healthImage from "../assets/health-review.jpg"
 
 const HealthInsurance = () => {
   return (
@@ -23,10 +24,8 @@ const HealthInsurance = () => {
           </p>
         </div>
 
-        <div className="health-hero-image">
-          <div className="image-placeholder">
-            Executive Business Owner Image
-          </div>
+       <div className="health-hero-image">
+  <img src={healthImage} alt="Health coverage strategy review" />
         </div>
       </section>
 

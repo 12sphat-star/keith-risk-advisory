@@ -1,23 +1,109 @@
 import HeroSection from "../components/HeroSection"
-import StructureSection from "../components/StructureSection"
 import ServicesGrid from "../components/ServicesGrid"
 import IncomeStatement from "../components/IncomeStatement"
-import AuthoritySection from "../components/AuthoritySection"
-import FAQSection from "../components/FAQSection"
 import CTASection from "../components/CTASection"
 
 const Home = () => {
   return (
     <>
+      {/* HERO */}
       <HeroSection />
-      <StructureSection />
+
+      {/* CREDIBILITY STRIP */}
+      <section className="credibility-strip">
+        <div className="container">
+          <p>
+            20+ Years in Banking, Lending & Risk Management |
+            Structured Health & Life Planning for Business Owners & Individuals
+          </p>
+        </div>
+      </section>
+
+      {/* SERVICES */}
       <ServicesGrid />
+
+      {/* PROCESS */}
+      <section className="process-section">
+        <div className="container">
+          <h2>What Happens During a Coverage Review</h2>
+
+          <div className="process-grid">
+
+            <div className="process-step">
+              <h3>1. Quick Overview</h3>
+              <p>
+                We review your current coverage and basic income structure
+                to understand how everything is set up today.
+              </p>
+            </div>
+
+            <div className="process-step">
+              <h3>2. Identify Gaps or Strengths</h3>
+              <p>
+                We determine whether your current structure is aligned —
+                or if there are exposure areas worth improving.
+              </p>
+            </div>
+
+            <div className="process-step">
+              <h3>3. Clear Next Steps</h3>
+              <p>
+                If changes make sense, we outline options.
+                If your structure is solid, we confirm it.
+                No pressure either way.
+              </p>
+            </div>
+
+          </div>
+
+          <div className="process-clarity">
+            <p>The goal is clarity — not selling.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* COMMON MISTAKES */}
+      <section className="mistakes-section">
+        <div className="container">
+
+          <h2>Common Coverage Mistakes Business Owners Make</h2>
+
+          <div className="mistakes-grid">
+
+            <div className="mistake-card">
+              <h3>Choosing Based on Premium Alone</h3>
+              <p>
+                The lowest monthly cost often leads to higher long-term exposure.
+                Deductibles, network limitations, and out-of-pocket risk matter.
+              </p>
+            </div>
+
+            <div className="mistake-card">
+              <h3>Separating Insurance From Business Strategy</h3>
+              <p>
+                Coverage decisions affect taxes, income stability,
+                and long-term business continuity — yet they’re often treated as isolated purchases.
+              </p>
+            </div>
+
+            <div className="mistake-card">
+              <h3>Never Re-Evaluating After Growth</h3>
+              <p>
+                As income changes and businesses scale,
+                coverage structures should evolve. Many don’t.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* INCOME STABILITY BAND */}
       <IncomeStatement />
-      <AuthoritySection />
-      <FAQSection />
+
+      {/* FINAL CTA */}
       <CTASection />
     </>
-
   )
 }
 

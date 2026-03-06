@@ -1,4 +1,5 @@
-
+import headshot from "../assets/headshot.jpg"
+import "../styles/components.css"
 
 const About = () => {
   return (
@@ -8,89 +9,69 @@ const About = () => {
       <div className="about-hero">
 
         <div className="about-text">
-          <h1>Banking-Level Risk Experience Applied to Insurance</h1>
+          <h1>Experience. Structure. Perspective.</h1>
 
           <p>
-            For over twenty years, I worked inside major financial institutions
-            evaluating underwriting decisions, risk exposure, and financial structure.
-            Today, I apply that same institutional lens to health and life insurance
-            planning for business owners across Virginia.
+            With more than two decades of experience in banking, lending,
+            underwriting, and financial services, Keith Robertson approaches
+            health and life insurance differently than traditional advisors.
           </p>
 
           <p>
-            Insurance is not a product discussion.
-            It is a structural decision that affects income stability,
-            business continuity, and long-term financial positioning.
+            His background includes roles in mortgage lending, risk management,
+            underwriting, and executive banking environments — including
+            leadership experience within the Office of the President at Bank of America,
+            and prior roles at SunTrust, Wells Fargo, and TD Bank.
+          </p>
+
+          <p>
+            This experience shapes a structured, analytical approach to insurance —
+            focused not on selling policies, but on evaluating alignment,
+            exposure, and long-term stability.
           </p>
         </div>
 
         <div className="about-image">
-  <div style={{
-    width: "100%",
-    maxWidth: "380px",
-    height: "420px",
-    backgroundColor: "#EEF1F6",
-    borderRadius: "8px"
-  }}></div>
-</div>
+          <img src={headshot} alt="Keith Robertson" />
+        </div>
 
       </div>
 
-      {/* EXPERIENCE SECTION */}
-      <section className="about-section">
-        <h2>Institutional Background</h2>
+      {/* PHILOSOPHY SECTION */}
+      <div className="about-section">
+        <h2>Structured Advisory Approach</h2>
+
         <p>
-          My professional background includes serving within Bank of America
-          in the Office of the President, working as a Mortgage Loan Officer
-          with SunTrust and Wells Fargo, underwriting risk at TD Bank,
-          and operating my own brokerage prior to the financial crisis.
+          Health and life insurance decisions impact income continuity,
+          business stability, and family protection. Rather than focusing
+          solely on premiums or product comparisons, each review considers
+          structure, ownership, risk exposure, and long-term alignment.
         </p>
 
         <p>
-          Across those roles, the responsibility was consistent:
-          evaluate risk, analyze exposure, and structure decisions
-          that protect long-term stability.
+          The goal is clarity — confirming when coverage is appropriate,
+          identifying gaps when necessary, and ensuring decisions support
+          both personal and business objectives.
         </p>
-      </section>
+      </div>
 
-      {/* INSURANCE FOCUS SECTION */}
-      <section className="about-section">
-        <h2>How That Experience Changes the Insurance Conversation</h2>
-        <p>
-          Most insurance conversations center on premiums.
-          My approach centers on exposure.
-        </p>
+      {/* CLIENT FOCUS SECTION */}
+      <div className="about-section">
+        <h2>Who Is Served</h2>
 
         <p>
-          Health coverage impacts cash flow.
-          Life insurance impacts continuity.
-          Both affect how resilient your business and family remain
-          under unexpected events.
+          Primary focus includes Virginia business owners, self-employed
+          professionals, and structured income earners. Individuals and
+          families across the Commonwealth are also supported when aligned
+          with a disciplined planning approach.
         </p>
 
         <p>
-          Coverage should be structured with the same discipline
-          used in banking risk analysis — measured, aligned, and sustainable.
+          Services are delivered with an emphasis on discretion,
+          professionalism, and long-term relationship building —
+          not transactional sales.
         </p>
-      </section>
-
-      {/* WHO I SERVE */}
-      <section className="about-section">
-        <h2>Who I Work With</h2>
-        <p>
-          I work primarily with entrepreneurs, contractors, professionals,
-          and business owners in Hampton Roads and throughout Virginia.
-          Individuals who understand that income is the engine,
-          and protection must be positioned accordingly.
-        </p>
-      </section>
-
-      {/* CTA */}
-      <section className="about-section">
-        <a href="/schedule" className="cta-button">
-          Schedule a Coverage Review
-        </a>
-      </section>
+      </div>
 
     </div>
   )
