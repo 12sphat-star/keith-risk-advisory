@@ -193,16 +193,17 @@ section {
   margin-bottom: 14px;
 }
 .credibility-strip {
-  background-color: #FFFFFF;
-  padding: 18px 8px;
+  background: #f8fafc;
+  padding: 22px 20px;
   text-align: center;
+  border-top: 1px solid #eef1f6;
+  border-bottom: 1px solid #eef1f6;
 }
 
 .credibility-strip p {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
-  color: #333;
-  margin: 0;
+  letter-spacing: 0.4px;
 }
 .process-section {
   padding: 60px 40px 30px 40px;
@@ -870,8 +871,8 @@ section {
 
 .mistake-card {
   background: white;
-  padding: 30px;
-  border-radius: 8px;
+  padding: 28px;
+  border-radius: 10px;
   border: 1px solid #e5e7eb;
 }
 

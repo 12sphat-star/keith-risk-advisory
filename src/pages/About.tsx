@@ -1,79 +1,77 @@
-import headshot from "../assets/headshot.jpg"
+import { Helmet } from "react-helmet-async"
 import "../styles/components.css"
+import headshot from "../assets/headshot.jpg"
 
 const About = () => {
   return (
-    <div className="about-page">
+    <>
+      <Helmet>
+        <title>
+          About Keith Robertson | The Fin Coach | Virginia Insurance Advisor
+        </title>
+        <meta
+          name="description"
+          content="Keith Robertson brings 20+ years in banking, underwriting, lending, and financial services to structured health and life insurance advisory for Virginia business owners and individuals."
+        />
+      </Helmet>
 
-      {/* HERO SECTION */}
-      <div className="about-hero">
+      <div className="about-page">
 
-        <div className="about-text">
-          <h1>Experience. Structure. Perspective.</h1>
+        <section className="about-hero">
+          <div className="about-text">
+            <h1>
+              Advisory Built on Risk, Structure, and Experience
+            </h1>
+
+            <p>
+              With more than two decades in banking, underwriting,
+              risk management, and financial services, I approach
+              insurance differently.
+            </p>
+
+            <p>
+              Coverage decisions are not transactions —
+              they are structural decisions affecting income,
+              tax positioning, and long-term stability.
+            </p>
+          </div>
+
+    <div className="about-image">
+                  <img
+              src={headshot}
+              alt="Keith Robertson - The Fin Coach"
+            />
+          </div>
+        </section>
+
+        <section className="about-section">
+          <h2>Professional Background</h2>
 
           <p>
-            With more than two decades of experience in banking, lending,
-            underwriting, and financial services, Keith Robertson approaches
-            health and life insurance differently than traditional advisors.
+            Experience includes roles in mortgage lending,
+            underwriting, and risk management with institutions
+            such as Bank of America, SunTrust, Wells Fargo, and TD Bank.
           </p>
 
           <p>
-            His background includes roles in mortgage lending, risk management,
-            underwriting, and executive banking environments — including
-            leadership experience within the Office of the President at Bank of America,
-            and prior roles at SunTrust, Wells Fargo, and TD Bank.
+            That foundation informs a structured, analytical
+            approach to health and life insurance strategy.
           </p>
+        </section>
+
+        <section className="about-section">
+          <h2>Who I Work With</h2>
 
           <p>
-            This experience shapes a structured, analytical approach to insurance —
-            focused not on selling policies, but on evaluating alignment,
-            exposure, and long-term stability.
+            Business owners, self-employed professionals,
+            and individuals across Hampton Roads and
+            throughout Virginia seeking clarity —
+            not pressure.
           </p>
-        </div>
-
-        <div className="about-image">
-          <img src={headshot} alt="Keith Robertson" />
-        </div>
+        </section>
 
       </div>
-
-      {/* PHILOSOPHY SECTION */}
-      <div className="about-section">
-        <h2>Structured Advisory Approach</h2>
-
-        <p>
-          Health and life insurance decisions impact income continuity,
-          business stability, and family protection. Rather than focusing
-          solely on premiums or product comparisons, each review considers
-          structure, ownership, risk exposure, and long-term alignment.
-        </p>
-
-        <p>
-          The goal is clarity — confirming when coverage is appropriate,
-          identifying gaps when necessary, and ensuring decisions support
-          both personal and business objectives.
-        </p>
-      </div>
-
-      {/* CLIENT FOCUS SECTION */}
-      <div className="about-section">
-        <h2>Who Is Served</h2>
-
-        <p>
-          Primary focus includes Virginia business owners, self-employed
-          professionals, and structured income earners. Individuals and
-          families across the Commonwealth are also supported when aligned
-          with a disciplined planning approach.
-        </p>
-
-        <p>
-          Services are delivered with an emphasis on discretion,
-          professionalism, and long-term relationship building —
-          not transactional sales.
-        </p>
-      </div>
-
-    </div>
+    </>
   )
 }
 

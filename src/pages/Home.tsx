@@ -2,13 +2,23 @@ import HeroSection from "../components/HeroSection"
 import ServicesGrid from "../components/ServicesGrid"
 import IncomeStatement from "../components/IncomeStatement"
 import CTASection from "../components/CTASection"
+import { Helmet } from "react-helmet-async"
+
 
 const Home = () => {
   return (
+    
     <>
+
+<Helmet>
+  <title>Structured Health & Life Insurance | Virginia | The Fin Coach</title>
+  <meta
+    name="description"
+    content="Structured health and life insurance advisory for Virginia business owners and individuals. Serving Hampton Roads and surrounding communities."
+  />
+</Helmet>
       {/* HERO */}
       <HeroSection />
-
       {/* CREDIBILITY STRIP */}
       <section className="credibility-strip">
         <div className="container">
