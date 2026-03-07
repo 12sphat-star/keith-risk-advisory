@@ -44,20 +44,27 @@ const About = () => {
           </div>
         </section>
 
-        <section className="about-section">
-          <h2>Professional Background</h2>
+      <section className="about-section">
+  <h2>Professional Background</h2>
 
-          <p>
-            Experience includes roles in mortgage lending,
-            underwriting, and risk management with institutions
-            such as Bank of America, SunTrust, Wells Fargo, and TD Bank.
-          </p>
+  <p>
+    Experience includes roles in mortgage lending, SBA commercial lending,
+    underwriting, and risk management with institutions such as Bank of America,
+    SunTrust, Wells Fargo, and TD Bank.
+  </p>
 
-          <p>
-            That foundation informs a structured, analytical
-            approach to health and life insurance strategy.
-          </p>
-        </section>
+  <p>
+    That foundation — built in credit analysis, capital structuring, and
+    risk evaluation — informs a structured, analytical approach to
+    health and life insurance strategy.
+  </p>
+
+  <p>
+    Coverage decisions are not viewed as isolated transactions,
+    but as components of a broader financial structure affecting
+    income stability, tax positioning, and long-term protection.
+  </p>
+</section>
 
         <section className="about-section">
           <h2>Who I Work With</h2>
@@ -69,7 +76,24 @@ const About = () => {
             not pressure.
           </p>
         </section>
+<section className="about-cta">
+  <h3>Ready for a Structured Coverage Review?</h3>
 
+  <p>
+    Whether you are a business owner or an individual,
+    clarity begins with a focused conversation.
+  </p>
+
+  <div className="about-cta-buttons">
+    <a href="/schedule" className="cta-primary">
+      Schedule Review
+    </a>
+
+    <a href="tel:7572804120" className="cta-secondary">
+      Call 757-280-4120
+    </a>
+  </div>
+</section>
       </div>
     </>
   )

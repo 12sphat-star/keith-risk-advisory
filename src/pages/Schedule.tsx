@@ -38,11 +38,18 @@ const Schedule = () => {
           </ul>
         </div>
 
-        {/* Replace this with your calendar embed */}
+        {/* CALENDAR EMBED */}
         <div className="schedule-calendar">
-          <p style={{ textAlign: "center", marginTop: "40px" }}>
-            Calendar Embed Goes Here
-          </p>
+          <iframe
+            src="https://b.12stoneboost.com/widget/booking/qz0erNCXziJlA89kT7pd"
+            width="100%"
+            height="620"
+            style={{
+              border: "none",
+              borderRadius: "8px"
+            }}
+            title="Schedule Coverage Review"
+          ></iframe>
         </div>
 
       </div>
