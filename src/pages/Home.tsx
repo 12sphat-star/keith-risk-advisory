@@ -111,6 +111,35 @@ const Home = () => {
       {/* INCOME STABILITY BAND */}
       <IncomeStatement />
 
+<section className="faq-section">
+  <div className="container">
+    <h2>Frequently Asked Questions</h2>
+
+    <div className="faq-item">
+      <h3>Do I need a coverage review if I already have insurance?</h3>
+      <p>
+        Yes. A review confirms whether your current health and life coverage
+        aligns with your income structure, business model, and long-term goals.
+      </p>
+    </div>
+
+    <div className="faq-item">
+      <h3>Do you only work with business owners?</h3>
+      <p>
+        While many clients are business owners and self-employed professionals,
+        individuals and families across Virginia also benefit from structured reviews.
+      </p>
+    </div>
+
+    <div className="faq-item">
+      <h3>Is there an obligation to change coverage?</h3>
+      <p>
+        No. The purpose of the review is clarity. If your structure is sound,
+        that is confirmed. If adjustments are needed, options are outlined.
+      </p>
+    </div>
+  </div>
+</section>
       {/* FINAL CTA */}
       <CTASection />
     </>
