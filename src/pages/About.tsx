@@ -22,7 +22,7 @@ const About = () => {
             <h1>
               Advisory Built on Risk, Structure, and Experience
             </h1>
-
+            
             <p>
               With more than two decades in banking, underwriting,
               risk management, and financial services, I approach
@@ -42,6 +42,10 @@ const About = () => {
               alt="Keith Robertson - The Fin Coach"
             />
           </div>
+      <div className="about-profile">
+  <h2>Keith Robertson</h2>
+  <p className="about-title">Health & Life Insurance Advisor</p>
+</div>
         </section>
 
       <section className="about-section">

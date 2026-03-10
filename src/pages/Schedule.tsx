@@ -15,43 +15,44 @@ const Schedule = () => {
       </Helmet>
 
       <div className="schedule-page">
-
         <div className="schedule-intro">
           <h1>Schedule Your Coverage Review</h1>
 
           <p>
-            This is a focused conversation designed to evaluate your current
-            health and life coverage structure.
+            This is a short, focused conversation designed to review your current
+            health and life coverage and better understand your situation.
           </p>
 
           <p>
-            The goal is alignment — not selling. If your coverage is properly
-            structured, that will be confirmed. If adjustments make sense,
-            options will be clearly outlined.
+            The goal is clarity — not pressure. If your current coverage is
+            properly structured, we will confirm that. If there may be
+            opportunities for improvement, we will walk through them clearly and
+            simply.
           </p>
 
           <ul>
-            <li>✔ Review of current health & life coverage</li>
-            <li>✔ Income structure discussion</li>
-            <li>✔ Risk exposure evaluation</li>
-            <li>✔ Clear next steps (if needed)</li>
+            <li>✔ Review your current health and life coverage</li>
+            <li>✔ Discuss your household, income, or business situation</li>
+            <li>✔ Identify possible gaps or missed options</li>
+            <li>✔ Leave with clear next steps, if needed</li>
           </ul>
+
+          <p>
+            This is not a long or complicated meeting — just a simple review to
+            help determine whether your current coverage still makes sense.
+          </p>
         </div>
 
         {/* CALENDAR EMBED */}
         <div className="schedule-calendar">
           <iframe
-            src="https://b.12stoneboost.com/widget/booking/qz0erNCXziJlA89kT7pd"
+            src="https://b.12stoneboost.com/widget/booking/bGW5zlqar3C6EJakHhli"
             width="100%"
-            height="620"
-            style={{
-              border: "none",
-              borderRadius: "8px"
-            }}
-            title="Schedule Coverage Review"
+            height="700"
+            style={{ border: "none" }}
+            title="Schedule Appointment"
           ></iframe>
         </div>
-
       </div>
     </>
   )

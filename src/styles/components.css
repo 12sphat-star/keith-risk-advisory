@@ -959,3 +959,18 @@ section {
   justify-content: center;
   gap: 20px;
 }
+.about-profile {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-profile h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.about-title {
+  font-size: 1rem;
+  color: #555;
+  font-weight: 500;
+}
