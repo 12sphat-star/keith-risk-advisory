@@ -146,9 +146,9 @@ section {
 
 .about-hero {
   display: flex;
-  gap: 60px;
+  gap: 20px;
   align-items: center;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .about-text {
