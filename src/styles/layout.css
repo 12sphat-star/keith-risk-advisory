@@ -664,3 +664,240 @@
     margin: 0 !important;
   }
 }
+/* ==========================================
+   HOME PAGE MOBILE FIXES
+   ========================================== */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  /* HERO */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 28px 18px 36px;
+    align-items: flex-start;
+  }
+
+  .hero-text {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+    line-height: 1.02;
+    letter-spacing: -0.5px;
+    margin-bottom: 18px;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+    line-height: 1.65;
+    margin-bottom: 16px;
+  }
+
+  .hero-subnote {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    margin-top: 18px;
+  }
+
+  .hero-buttons a,
+  .primary-btn,
+  .secondary-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .hero-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 16px;
+    display: block;
+  }
+
+  /* CREDIBILITY */
+  .credibility-strip {
+    padding: 16px 0;
+  }
+
+  .credibility-strip p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  /* SECTIONS */
+  .services-section,
+  .process-section,
+  .mistakes-section,
+  .faq-section,
+  .income-statement,
+  .cta-section {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+
+  .services-section h2,
+  .process-section h2,
+  .mistakes-section h2,
+  .faq-section h2,
+  .income-content h2,
+  .cta-content h2 {
+    font-size: 34px;
+    line-height: 1.15;
+    text-align: center;
+    margin-bottom: 22px;
+  }
+
+  /* GRID STACKING */
+  .services-grid,
+  .process-grid,
+  .mistakes-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .service-card,
+  .process-step,
+  .mistake-card,
+  .faq-item {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 22px;
+    box-sizing: border-box;
+  }
+
+  .service-card h3,
+  .process-step h3,
+  .mistake-card h3,
+  .faq-item h3 {
+    font-size: 22px;
+    line-height: 1.25;
+    margin-bottom: 14px;
+  }
+
+  .service-card p,
+  .process-step p,
+  .mistake-card p,
+  .faq-item p,
+  .income-content p,
+  .cta-content p {
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  .service-link {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 17px;
+  }
+
+  .process-clarity {
+    margin-top: 18px;
+    text-align: center;
+  }
+
+  .process-clarity p {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .income-content,
+  .cta-content {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .cta-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 22px;
+  }
+
+  .cta-primary,
+  .cta-secondary {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 768px) {
+  .site-header,
+  .navbar,
+  .nav-container,
+  .top-nav,
+  header {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+    padding: 16px 18px !important;
+  }
+
+  .nav-links,
+  .nav-menu {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px 16px !important;
+    width: 100% !important;
+  }
+
+  .nav-links a,
+  .nav-menu a {
+    font-size: 15px !important;
+    line-height: 1.3 !important;
+    white-space: normal !important;
+  }
+
+  .header-right,
+  .nav-right,
+  .header-contact {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    width: 100% !important;
+  }
+
+  .schedule-button,
+  .header-cta {
+    width: 100% !important;
+    max-width: 240px !important;
+    text-align: center !important;
+  }
+}
