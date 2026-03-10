@@ -484,3 +484,183 @@
     max-width: 100% !important;
   }
 }
+@media (max-width: 768px) {
+  /* HEADER */
+  .site-header,
+  .top-header,
+  .main-header,
+  .navbar,
+  .nav-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+    padding: 16px 16px !important;
+  }
+
+  .brand,
+  .logo-block,
+  .site-brand {
+    width: 100% !important;
+  }
+
+  .nav-links,
+  .nav-menu {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px 16px !important;
+    width: 100% !important;
+  }
+
+  .nav-links a,
+  .nav-menu a {
+    font-size: 15px !important;
+    line-height: 1.3 !important;
+    white-space: normal !important;
+  }
+
+  .header-right,
+  .nav-right,
+  .header-contact {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    width: 100% !important;
+  }
+
+  .schedule-button,
+  .header-cta,
+  .primary-button {
+    width: 100% !important;
+    max-width: 260px !important;
+  }
+
+  /* HERO */
+  .hero,
+  .hero-section,
+  .home-hero,
+  .hero-content {
+    padding: 24px 16px !important;
+    margin: 0 !important;
+    min-height: auto !important;
+  }
+
+  .hero h1,
+  .home-hero h1,
+  .hero-title {
+    font-size: 34px !important;
+    line-height: 1.08 !important;
+    letter-spacing: -0.5px !important;
+    max-width: 100% !important;
+    margin-bottom: 16px !important;
+  }
+
+  .hero p,
+  .home-hero p,
+  .hero-subtext {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+    max-width: 100% !important;
+    margin-bottom: 16px !important;
+  }
+
+  .hero-buttons,
+  .cta-group,
+  .hero-actions {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+
+  .hero-buttons a,
+  .cta-group a,
+  .hero-actions a,
+  .hero-buttons button,
+  .cta-group button,
+  .hero-actions button {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  /* TOP TRUST / SUBHEAD STRIP */
+  .hero-strip,
+  .trust-strip,
+  .credential-strip,
+  .intro-strip {
+    padding: 16px !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+  }
+
+  /* STRUCTURED PROTECTION ADVISORY SECTION */
+  .services-grid,
+  .card-grid,
+  .advisory-grid,
+  .protection-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+    padding: 0 16px !important;
+  }
+
+  .service-card,
+  .info-card,
+  .advisory-card,
+  .protection-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding: 20px !important;
+    margin: 0 !important;
+  }
+
+  .service-card h3,
+  .info-card h3,
+  .advisory-card h3,
+  .protection-card h3 {
+    font-size: 28px !important;
+    line-height: 1.15 !important;
+    margin-bottom: 12px !important;
+  }
+
+  .service-card p,
+  .info-card p,
+  .advisory-card p,
+  .protection-card p {
+    font-size: 17px !important;
+    line-height: 1.6 !important;
+  }
+
+  /* SECTION HEADINGS */
+  .section-title,
+  .section h2,
+  .section-heading {
+    font-size: 34px !important;
+    line-height: 1.15 !important;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+  }
+
+  /* BUSINESS MISTAKES SECTION */
+  .mistakes-grid,
+  .business-mistakes,
+  .comparison-grid,
+  .mistake-cards {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+    padding: 0 16px !important;
+  }
+
+  .mistake-card,
+  .comparison-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding: 20px !important;
+    margin: 0 !important;
+  }
+}
