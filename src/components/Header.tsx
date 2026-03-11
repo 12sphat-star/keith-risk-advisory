@@ -5,7 +5,6 @@ const Header = () => {
   return (
     <header className="site-header">
       <div className="header-container">
-
         <div className="brand-block">
           <Link to="/" className="brand-link">
             <div className="primary-brand">Keith Robertson</div>
@@ -21,36 +20,29 @@ const Header = () => {
         </nav>
 
         <div className="header-actions">
-
           <div className="contact-block">
             <a href="tel:7572804120" className="phone-link">
               757-280-4120
             </a>
-            <div className="availability">
-              24/7 Support Access
-            </div>
+            <div className="availability">24/7 Support Access</div>
           </div>
 
-         <a
-  href="https://usabg.com/krobertson"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <img
-    src={usabgLogo}
-    alt="USABG National Partner"
-    className="usabg-logo"
-  />
-</a>
-<a
-          />
+          <a
+            href="https://usabg.com/krobertson"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={usabgLogo}
+              alt="USABG National Partner"
+              className="usabg-logo"
+            />
+          </a>
 
           <Link to="/schedule" className="cta-button">
             Schedule Review
           </Link>
-
         </div>
-
       </div>
     </header>
   )
