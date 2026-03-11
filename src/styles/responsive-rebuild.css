@@ -815,8 +815,8 @@ a {
 
 .business-hero-image img {
   width: 100% !important;
-  max-width: 360px !important;
-  min-width: 260px !important;
+  max-width: 260px !important;
+  min-width: 160px !important;
   height: auto !important;
   display: block !important;
   margin: 0 auto !important;
