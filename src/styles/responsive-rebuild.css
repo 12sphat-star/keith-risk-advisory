@@ -798,3 +798,39 @@ a {
     max-width: 460px !important;
   }
 }
+/* ==========================================
+   BUSINESS OWNER HERO IMAGE - FORCE LARGER
+   ========================================== */
+.business-hero {
+  grid-template-columns: 1fr !important;
+}
+
+.business-hero-image {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 12px !important;
+}
+
+.business-hero-image img {
+  width: 100% !important;
+  max-width: 360px !important;
+  min-width: 260px !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  border-radius: 18px !important;
+  object-fit: cover !important;
+}
+
+@media (min-width: 960px) {
+  .business-hero {
+    grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr) !important;
+  }
+
+  .business-hero-image img {
+    max-width: 420px !important;
+    min-width: 0 !important;
+  }
+}
