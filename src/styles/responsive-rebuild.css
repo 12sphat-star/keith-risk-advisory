@@ -766,3 +766,35 @@ a {
     width: auto;
   }
 }
+/* ==========================================
+   STRONGER PAGE HERO IMAGE SIZING
+   ========================================== */
+.health-hero-image img,
+.life-hero-image img,
+.business-hero-image img {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  border-radius: 18px !important;
+  object-fit: cover !important;
+}
+
+@media (max-width: 768px) {
+  .health-hero-image img,
+  .life-hero-image img {
+    max-width: 380px !important;
+  }
+
+  .business-hero-image img {
+    max-width: 380px !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .health-hero-image img,
+  .life-hero-image img,
+  .business-hero-image img {
+    max-width: 460px !important;
+  }
+}
