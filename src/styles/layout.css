@@ -901,3 +901,102 @@
     text-align: center !important;
   }
 }
+@media (max-width: 768px) {
+  /* HERO - force true mobile stack */
+  .hero {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 20px !important;
+    padding: 24px 18px 32px !important;
+  }
+
+  .hero-text {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: none !important;
+  }
+
+  .hero-text h1 {
+    font-size: 34px !important;
+    line-height: 1.05 !important;
+    margin: 0 0 16px 0 !important;
+    max-width: 100% !important;
+  }
+
+  .hero-text p {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+    margin-bottom: 14px !important;
+    max-width: 100% !important;
+  }
+
+  .hero-subnote {
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+  }
+
+  .hero-buttons {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+
+  .hero-buttons a,
+  .primary-btn,
+  .secondary-btn {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .hero-image {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 8px !important;
+  }
+
+  .hero-image img {
+    width: 100% !important;
+    max-width: 280px !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto !important;
+    border-radius: 14px !important;
+  }
+
+  /* home grids */
+  .services-grid,
+  .process-grid,
+  .mistakes-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+  }
+
+  .service-card,
+  .process-step,
+  .mistake-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+  }
+
+  .services-section h2,
+  .process-section h2,
+  .mistakes-section h2,
+  .faq-section h2,
+  .income-content h2,
+  .cta-content h2 {
+    font-size: 30px !important;
+    line-height: 1.15 !important;
+    text-align: center !important;
+  }
+}
