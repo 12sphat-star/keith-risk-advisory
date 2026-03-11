@@ -1,0 +1,480 @@
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  img,
+  iframe {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
+  }
+
+  /* HEADER */
+  .site-header {
+    padding: 14px 0 !important;
+  }
+
+  .header-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 14px !important;
+    width: 100% !important;
+    padding: 0 18px !important;
+    box-sizing: border-box !important;
+  }
+
+  .brand-block {
+    width: 100% !important;
+  }
+
+  .brand-link {
+    display: inline-block !important;
+    text-decoration: none !important;
+  }
+
+  .primary-brand {
+    font-size: 24px !important;
+    line-height: 1.05 !important;
+  }
+
+  .sub-brand {
+    font-size: 16px !important;
+    line-height: 1.2 !important;
+    letter-spacing: 1px !important;
+  }
+
+  .nav {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px 14px !important;
+    width: 100% !important;
+  }
+
+  .nav a {
+    font-size: 16px !important;
+    line-height: 1.3 !important;
+    white-space: normal !important;
+  }
+
+  .header-actions {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+
+  .contact-block {
+    width: 100% !important;
+  }
+
+  .phone-link {
+    font-size: 18px !important;
+    line-height: 1.2 !important;
+  }
+
+  .availability {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+  }
+
+  .usabg-logo {
+    max-width: 150px !important;
+    height: auto !important;
+    display: block !important;
+  }
+
+  .cta-button {
+    display: block !important;
+    width: 100% !important;
+    max-width: 240px !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  /* HOME HERO */
+  .hero {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 20px !important;
+    padding: 24px 18px 32px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .hero-text,
+  .hero-image {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: none !important;
+  }
+
+  .hero-text h1 {
+    font-size: 34px !important;
+    line-height: 1.05 !important;
+    margin: 0 0 16px 0 !important;
+    max-width: 100% !important;
+  }
+
+  .hero-text p {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+    margin: 0 0 14px 0 !important;
+    max-width: 100% !important;
+  }
+
+  .hero-subnote {
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+  }
+
+  .hero-buttons {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+    width: 100% !important;
+    margin-top: 18px !important;
+  }
+
+  .hero-buttons a,
+  .primary-btn,
+  .secondary-btn {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .hero-image {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 8px !important;
+  }
+
+  .hero-image img {
+    width: 100% !important;
+    max-width: 280px !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto !important;
+    border-radius: 14px !important;
+  }
+
+  /* HOME PAGE SECTIONS */
+  .credibility-strip {
+    padding: 16px 0 !important;
+  }
+
+  .credibility-strip p {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .services-section,
+  .process-section,
+  .mistakes-section,
+  .faq-section,
+  .income-statement,
+  .cta-section {
+    padding-top: 42px !important;
+    padding-bottom: 42px !important;
+  }
+
+  .services-section h2,
+  .process-section h2,
+  .mistakes-section h2,
+  .faq-section h2,
+  .income-content h2,
+  .cta-content h2 {
+    font-size: 30px !important;
+    line-height: 1.15 !important;
+    text-align: center !important;
+    margin-bottom: 22px !important;
+  }
+
+  .services-grid,
+  .process-grid,
+  .mistakes-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+    padding: 0 !important;
+  }
+
+  .service-card,
+  .process-step,
+  .mistake-card,
+  .faq-item {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+  }
+
+  .service-card h3,
+  .process-step h3,
+  .mistake-card h3,
+  .faq-item h3 {
+    font-size: 22px !important;
+    line-height: 1.25 !important;
+    margin-bottom: 14px !important;
+  }
+
+  .service-card p,
+  .process-step p,
+  .mistake-card p,
+  .faq-item p,
+  .income-content p,
+  .cta-content p {
+    font-size: 17px !important;
+    line-height: 1.65 !important;
+  }
+
+  .service-link {
+    display: inline-block !important;
+    margin-top: 16px !important;
+    font-size: 17px !important;
+  }
+
+  .process-clarity {
+    margin-top: 18px !important;
+    text-align: center !important;
+  }
+
+  .process-clarity p {
+    font-size: 17px !important;
+    line-height: 1.5 !important;
+    margin: 0 !important;
+  }
+
+  .income-content,
+  .cta-content {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
+  }
+
+  .cta-actions {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+    margin-top: 22px !important;
+  }
+
+  .cta-primary,
+  .cta-secondary {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  /* ABOUT */
+  .about-hero {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 24px !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  /* SCHEDULE */
+  .schedule-page {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  .schedule-intro {
+    text-align: center !important;
+  }
+
+  .schedule-intro ul {
+    padding-left: 0 !important;
+    list-style: none !important;
+  }
+
+  .schedule-calendar iframe {
+    width: 100% !important;
+    min-height: 720px !important;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 56px 18px 36px !important;
+  }
+
+  .footer-container {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+    margin-bottom: 30px !important;
+  }
+
+  /* HEALTH / LIFE / BUSINESS HEROES */
+  .health-hero,
+  .life-hero,
+  .business-hero {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 40px 18px !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .health-hero-text,
+  .life-hero-text,
+  .business-hero-text {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .health-hero-text h1,
+  .life-hero-text h1,
+  .business-hero-text h1 {
+    margin: 0 0 16px !important;
+    font-size: 34px !important;
+    line-height: 1.08 !important;
+  }
+
+  .health-hero-text p,
+  .life-hero-text p,
+  .business-hero-text p {
+    margin: 0 0 14px !important;
+    font-size: 18px !important;
+    line-height: 1.65 !important;
+  }
+
+  .health-subnote,
+  .life-subnote,
+  .business-subnote {
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+    color: #4b5563 !important;
+  }
+
+  .health-hero-image,
+  .life-hero-image,
+  .business-hero-image {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .health-hero-image img,
+  .life-hero-image img {
+    width: 100% !important;
+    max-width: 360px !important;
+    height: auto !important;
+    display: block !important;
+    border-radius: 18px !important;
+    margin: 0 auto !important;
+  }
+
+  .business-hero-image img {
+    width: 100% !important;
+    max-width: 360px !important;
+    min-width: 260px !important;
+    height: auto !important;
+    display: block !important;
+    border-radius: 18px !important;
+    margin: 0 auto !important;
+  }
+
+  .health-section,
+  .life-section,
+  .business-section,
+  .health-cta,
+  .life-cta,
+  .business-cta {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 42px 18px !important;
+    box-sizing: border-box !important;
+  }
+
+  .health-section h2,
+  .life-section h2,
+  .business-section h2,
+  .health-cta h3,
+  .life-cta h3,
+  .business-cta h3 {
+    margin: 0 0 18px !important;
+    font-size: 30px !important;
+    line-height: 1.15 !important;
+    text-align: center !important;
+  }
+
+  .health-section p,
+  .life-section p,
+  .business-section p,
+  .health-cta p,
+  .life-cta p,
+  .business-cta p {
+    font-size: 17px !important;
+    line-height: 1.65 !important;
+  }
+
+  .health-section ul,
+  .life-section ul,
+  .business-section ul {
+    margin: 0 !important;
+    padding-left: 20px !important;
+  }
+
+  .health-section li,
+  .life-section li,
+  .business-section li {
+    margin-bottom: 10px !important;
+    font-size: 17px !important;
+    line-height: 1.6 !important;
+  }
+
+  .health-cta-buttons,
+  .life-cta-buttons,
+  .business-cta-buttons {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+    margin-top: 20px !important;
+  }
+
+  .health-cta-buttons .cta-primary,
+  .health-cta-buttons .cta-secondary,
+  .life-cta-buttons .cta-primary,
+  .life-cta-buttons .cta-secondary,
+  .business-cta-buttons .cta-primary,
+  .business-cta-buttons .cta-secondary {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+}

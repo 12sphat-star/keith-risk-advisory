@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 
+import "./styles/mobile-only.css"
 
 import Home from "./pages/Home"
 import HealthInsurance from "./pages/HealthInsurance"
