@@ -1628,3 +1628,39 @@
     margin-bottom: 30px !important;
   }
 }
+.usabg-trust-section {
+  padding: 48px 0;
+  background: #f8fafc;
+}
+
+.usabg-trust-content {
+  text-align: center;
+  max-width: 900px;
+}
+
+.usabg-trust-content h2 {
+  margin-bottom: 16px;
+}
+
+.usabg-trust-content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.usabg-trust-link {
+  display: inline-block;
+}
+
+.usabg-trust-logo {
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.usabg-trust-note {
+  margin-top: 12px;
+  font-size: 15px;
+  opacity: 0.8;
+}

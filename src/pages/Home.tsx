@@ -1,4 +1,5 @@
 import HeroSection from "../components/HeroSection"
+import usabgLogo from "../assets/usabg-logo.png"
 import ServicesGrid from "../components/ServicesGrid"
 import IncomeStatement from "../components/IncomeStatement"
 import CTASection from "../components/CTASection"
@@ -28,7 +29,34 @@ const Home = () => {
             </p>
           </div>
         </section>
+<section className="usabg-trust-section">
+  <div className="container usabg-trust-content">
+    <h2>Affiliated with USA Benefits Group</h2>
+    <p>
+      You can schedule your Coverage Review here on this site, or click the USA
+      Benefits Group logo below to visit my official agent page for additional
+      company information.
+    </p>
 
+    <a
+      href="https://usabg.com/krobertson"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="usabg-trust-link"
+      aria-label="Visit Keith Robertson USA Benefits Group agent page"
+    >
+      <img
+        src={usabgLogo}
+        alt="USA Benefits Group"
+        className="usabg-trust-logo"
+      />
+    </a>
+
+    <p className="usabg-trust-note">
+      Visit my official USA Benefits Group agent profile
+    </p>
+  </div>
+</section>
         <ServicesGrid />
 
         <section className="process-section">
